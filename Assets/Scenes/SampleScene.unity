@@ -364,6 +364,8 @@ GameObject:
   - component: {fileID: 530529093}
   - component: {fileID: 530529092}
   - component: {fileID: 530529094}
+  - component: {fileID: 530529095}
+  - component: {fileID: 530529096}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -386,7 +388,7 @@ MonoBehaviour:
   m_Camera: {fileID: 321876172}
   m_OriginBaseGameObject: {fileID: 530529089}
   m_CameraFloorOffsetObject: {fileID: 1338292871}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 1
   m_CameraYOffset: 1.1176
 --- !u!4 &530529091
 Transform:
@@ -445,6 +447,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   placedPrefab: {fileID: 162333779020252104, guid: c7984a0daefb9aa41857a96c5b5e0db6, type: 3}
   lookAtCamera: 1
+--- !u!114 &530529095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530529089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedLibrary: {fileID: 11400000, guid: c54532ad8a7c63240be33f272984e4c9, type: 2}
+  m_MaxNumberOfMovingImages: 0
+  m_TrackedImagePrefab: {fileID: 0}
+--- !u!114 &530529096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530529089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4293465dc916c744bf61b5a5e714273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ArPrefabs:
+  - {fileID: 4792801731845037906, guid: 41949d09f2cfdcb4084eb626c6935d7f, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
